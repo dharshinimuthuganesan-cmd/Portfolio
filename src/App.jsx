@@ -25,8 +25,8 @@ icon: "💧",
 description:
 "An Arduino-based IV glucose monitoring project that provides an alert when the glucose level becomes low.",
 tech: ["Arduino", "Arduino IDE", "Embedded"],
-github: "#",
-demo: "#",
+github: "public/Gluguard.pdf",
+demo: "public/Gluguard.pdf",
 pdf: `${import.meta.env.BASE_URL}Gluguard.pdf`,
 },
 {
@@ -138,7 +138,7 @@ DM<span>.</span> </a>
               View Projects
             </a>
 
-            <a href="/Dharshini_Resume.pdf" download className="secondary-btn">
+            <a href="public/Dharshini_Resume.pdf" download className="secondary-btn">
               Download Resume ↓
             </a>
           </div>
@@ -171,7 +171,7 @@ DM<span>.</span> </a>
 
           <div className="profile-wrapper">
             <img
-              src="/profile.jpg"
+              src="public/portfolio_img.png"
               alt="Dharshini"
               className="profile-image"
             />
