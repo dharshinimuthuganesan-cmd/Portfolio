@@ -16,8 +16,8 @@ icon: "📅",
 description:
 "A productivity application with calculator, to-do list, calendar, QR generator and notes.",
 tech: ["React", "JavaScript", "CSS"],
-github: "#",
-demo: "#",
+github: "https://dharshinimuthuganesan-cmd.github.io/DailyDesk./",
+demo: "https://dharshinimuthuganesan-cmd.github.io/DailyDesk./",
 },
 {
 title: "GluGuard",
@@ -27,6 +27,7 @@ description:
 tech: ["Arduino", "Arduino IDE", "Embedded"],
 github: "#",
 demo: "#",
+pdf: `${import.meta.env.BASE_URL}Gluguard.pdf`,
 },
 {
 title: "Portfolio Website",
@@ -40,12 +41,13 @@ demo: "#",
 ];
 
 const skills = [
-{ name: "HTML", percentage: 90 },
-{ name: "CSS", percentage: 85 },
-{ name: "JavaScript", percentage: 80 },
-{ name: "React", percentage: 75 },
+{ name: "HTML,CSS", percentage: 90 },
+{ name: "JavaScript", percentage: 85 },
+{ name: "React", percentage: 90 },
+{ name: "Figma", percentage: 85 },
 { name: "Python", percentage: 70 },
-{ name: "Git & GitHub", percentage: 80 },
+{ name: "Git & GitHub", percentage: 85 },
+{ name: "Galileo Ai", percentage: 80 },
 ];
 
 const education = [
@@ -69,7 +71,7 @@ const certificates = [
 "Full Stack Development Certification",
 "UIUX Certification",
 "Artificial Intelligence Certification",
-"Git & GitHub Certification",
+"Project Expo Certification",
 ];
 
 const closeMenu = () => {
@@ -136,7 +138,7 @@ DM<span>.</span> </a>
               View Projects
             </a>
 
-            <a href="/resume.pdf" download className="secondary-btn">
+            <a href="/Dharshini_Resume.pdf" download className="secondary-btn">
               Download Resume ↓
             </a>
           </div>
@@ -223,7 +225,7 @@ DM<span>.</span> </a>
             <div className="info-card">
               <span>🎓</span>
               <p>Education</p>
-              <h4>Undergraduate Student</h4>
+              <h4>B.E(Computer Science)</h4>
             </div>
 
             <div className="info-card">
